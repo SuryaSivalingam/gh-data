@@ -44,4 +44,6 @@ jobs:
         with:
           name: dist-files
       - name: Display file contents
-        run: ls -l
+        run: |
+          pwd
+          ls -l
